@@ -1,0 +1,159 @@
+body {
+    font-family: "karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.cuerpo {
+    border-radius:  8px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    width: 50px 20px;
+    padding: 40px;
+    display: inline-block;
+}
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body-heading, .costo {
+    color: #ffff;
+    font-size: 16px;
+}
+
+.beneficios, .caja-precio, .title-copy {
+    padding: 5%;
+}
+
+#title {
+    text-align: center;
+    margin: auto;
+}
+
+.title-copy {
+    text-align: left;
+}
+
+#title h1 {
+    color: #2ab2af;
+    padding-bottom: 2rem;
+    font-size: 3.7rem;
+}
+
+#title h2{
+    color: #c0df34;
+    padding-bottom: 0.5rem;
+    font-size: 2.7rem;
+}
+
+.beneficios h3 {
+    padding: 0%;
+}
+
+#title p{
+    color: #808080;
+    font-size: 2.2rem;
+}
+
+.caja-precio {
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    padding: 20px;
+}
+
+.full-copy, .punto-lista {
+    color: #f5f5f5;
+}
+
+.list-points, .tiempo {
+    line-height: 1.7;
+    font-size: 1.2rem;
+    font-size: 1.2rem;
+    color: #b3e7ef;
+}
+
+.caja-precio {
+    background-color: #2ab2af;
+}
+
+.caja-precio, .beneficios {
+    width: 100%;
+    display: block;
+    
+}
+
+.beneficios {
+    background-color: #4abebd;
+    position: relative;
+    padding: 30px;
+    margin: 0%;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    padding: 20px;
+}
+
+.body-heading {
+    padding: 10mm;
+    color: #ffff;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+}
+
+.costo-line {
+    margin-bottom: 0;
+    flex-direction: row;
+}
+
+.costo {
+    font-size: 3.2rem;
+    font-weight: bold;
+    display: inline-block;
+    -moz-box-align: start;
+}
+
+.full-copy {
+    font-size: 1.5rem;
+    padding-bottom: 1.7rem;
+}
+
+.blocke-boton {
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    background-color: #c0df34;
+    color: #ffff;
+    padding: 14px 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.blocke-boton:hover {
+    background-color: #95b01c;
+}
+
+.tiempo {
+    margin-left: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media (max-width: 400px) {
+   .row {
+       display: inline-block;
+       padding: 10px;
+   }
+
+.beneficios {
+    padding: 20px;
+    }
+}
